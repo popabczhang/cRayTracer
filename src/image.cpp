@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
 	ofstream myfile;
-	myfile.open("test01.ppm");
+	myfile.open("../output/test01.ppm");
 
 	int nx = 200;
 	int ny = 100;
@@ -14,7 +14,7 @@ int main() {
 		for (int i = 0; i < nx; i++) {
 			float r = float(i) / float(nx);
 			float g = float(j) / float(ny);
-			float b = 0.2;
+			float b = 0;
 			int ir = int(255.99 * r);
 			int ig = int(255.99 * g);
 			int ib = int(255.99 * b);

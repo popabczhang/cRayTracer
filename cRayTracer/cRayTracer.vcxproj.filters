@@ -9,6 +9,9 @@
     <ClCompile Include="..\src\image.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\vec3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\vec3.h">

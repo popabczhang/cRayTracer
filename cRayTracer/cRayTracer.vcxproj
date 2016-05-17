@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\image.cpp" />
+    <ClCompile Include="..\src\vec3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\vec3.h" />
